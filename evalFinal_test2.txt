@@ -1,0 +1,263 @@
+2017/11/22 7:34:41 PM EST;Conversation looks for specific fix.;251;1
+2017/11/24 11:06:08 AM EST;;253;3
+2017/11/24 11:10:04 AM EST;;255;2
+2017/11/24 11:11:33 AM EST;;257;1
+2017/11/24 11:29:30 AM EST;;259;2
+2017/11/24 12:25:43 PM EST;;263;3
+2017/11/25 8:51:12 PM EST;;265;2
+2017/11/25 9:06:54 PM EST;;261;3
+2017/11/25 9:09:44 PM EST;;267;4
+2017/11/25 9:12:36 PM EST;;296;3
+2017/11/25 9:22:52 PM EST;;271;4
+2017/11/25 9:26:26 PM EST;;273;2
+2017/11/25 9:30:47 PM EST;;275;3
+2017/11/25 9:32:37 PM EST;;277;1
+2017/11/25 9:39:32 PM EST;;279;3
+2017/11/25 9:41:09 PM EST;;281;4
+2017/11/26 6:54:10 PM EST;;283;2
+2017/11/26 6:56:59 PM EST;;285;3
+2017/11/26 6:59:21 PM EST;;287;4
+2017/11/26 7:02:48 PM EST;;289;4
+2017/11/26 7:05:04 PM EST;;291;1
+2017/11/26 7:09:39 PM EST;;293;2
+2017/11/26 7:12:45 PM EST;;295;3
+2017/11/26 7:18:43 PM EST;;297;2
+2017/11/26 7:23:11 PM EST;;299;2
+2017/11/26 9:58:57 PM EST;U5CESNHL2 : that github example is doing all the heavy lifting when it should be offloading to botkit;302;1
+2017/11/26 10:04:14 PM EST;I didn't see any obvious code segment. I'm assessing the code starting from line 8.;304;3
+2017/11/27 12:04:54 AM EST;Code is correct just needs better expressing. U1NGX4Z6F : isn't there a syntactic sugar around this ?;306;4
+2017/11/27 12:06:08 AM EST;U4RR7KX45 : these types are such a pain sometimes :disappointed: can anyone shed some light, why am I getting an
+error here?;308;1
+2017/11/27 12:10:49 AM EST;Not Applicable;310;3
+2017/11/27 12:14:41 AM EST;Not Applicable;312;3
+2017/11/27 12:15:59 AM EST;U3PCMK1AA : Having problem getting post request from the events API.;314;1
+2017/11/27 12:17:14 AM EST;U3L6TFEJF : just noticed that mine is not correct either, I get `[:a :b 2]` instead of `[:a :d 2]`;316;1
+2017/11/27 12:19:46 AM EST;Not Applicable;318;3
+2017/11/27 12:21:37 AM EST;... which works like a charm :slightly_smiling_face:;320;4
+2017/11/27 12:23:10 AM EST;U051SS2EU : the next problem is that decls isn't going to be a valid data literal;322;1
+2017/11/27 12:24:30 AM EST;U64FYS317 : Can anyone help me troubleshoot this? I'm getting a `cannot find variable: Mdl` in the following code,
+although it's defined just a few lines before.```;324;1
+2017/11/27 12:26:20 AM EST;Not Applicable;326;4
+2017/11/27 12:27:32 AM EST;U2VNB2S1Z : that's one way to do it;328;3
+2017/11/27 12:29:45 AM EST;It worked, though not perfectly. Quote:
+U2SR9DL7Q : That... worked? It says I've created a list of a list of dominoes. But If I can just flatten that, I should be
+fine.;330;3
+2017/11/27 12:32:41 AM EST;If the line creating the country field is in the main view, it works as expected, if it is in the subview, displayed on
+condition of the m model, then I have that issue.;332;1
+2017/11/27 12:37:25 AM EST;Right and wrong pieces of code all over the place. I'm annotating the first one.
+U0CKDHF4L : ok a simpler version works:;334;4
+2017/11/27 12:38:57 AM EST;-- throws: subUpdate is expecting `UnionType`, but it is `Msg`;336;1
+2017/11/27 12:42:15 AM EST;Annotating the first 2 segments. The first 2 segments don't seem to work. They wrapped the exp with (), and it worked.;338;1
+2017/11/27 12:45:51 AM EST;U04V70XH6 : (I'm a bit surprised `(def ^:const x (env :x))` works, to be honest);340;3
+2017/11/27 12:48:14 AM EST;U5Q42DDMJ : yes it works but not in every case;342;2
+2017/11/27 12:51:30 AM EST;What I can't seem to know how to do is add additional items to the pipeline for the other responses.;344;2
+2017/11/27 12:53:28 AM EST;U48AEBJQ3 : If you want to decode the entire thing:;346;4
+2017/11/27 12:54:14 AM EST;U62UFEG4D : makes totally sense, thank a lot <@U4872964V>!;348;4
+2017/11/27 12:56:00 AM EST;It's not giving desired results. Quote:
+Is there a way to be able to handle *Msg* and *GeneratorMsg* interchangeably?;350;1
+2017/11/27 12:35:42 PM EST;here i can see that user is constantly telling scenarios where the code is not satisfying all conditions;455;1
+2017/11/27 12:36:53 PM EST;All conditions not satified..user pointed out at union type issue;454;1
+2017/11/27 12:38:47 PM EST;User said it doesnt work as pred is needed to succeed on x being false or nil;453;1
+2017/11/27 12:40:34 PM EST;User found confusing output;452;2
+2017/11/27 12:41:06 PM EST;NA;451;4
+2017/11/27 12:42:05 PM EST;NA;456;4
+2017/11/27 12:42:41 PM EST;NA;457;4
+2017/11/27 12:43:29 PM EST;Not sure;458;3
+2017/11/27 7:47:02 PM EST;;256;4
+2017/11/27 8:02:03 PM EST;not applicable;260;4
+2017/11/27 8:07:45 PM EST;Code not compiling. Can do it with slight modifications;262;2
+2017/11/27 8:11:54 PM EST;compiler error;264;1
+2017/11/27 8:14:23 PM EST;;266;2
+2017/11/27 8:15:30 PM EST;Weird compiler error;268;1
+2017/11/27 8:18:57 PM EST;Code giving wrong output;272;1
+2017/11/27 8:20:43 PM EST;Developer was confused if the field was mandatory or not. Eventually got the answer.;274;4
+2017/11/27 8:23:35 PM EST;;278;1
+2017/11/27 8:28:28 PM EST;Sample working code was given by user;280;4
+2017/11/27 8:29:54 PM EST;Slight error while using JSON. Majority code was correct.;282;2
+2017/11/27 8:31:19 PM EST;correct implementation was given
+;284;4
+2017/11/27 9:46:20 PM EST;correct implementation given;288;4
+2017/11/27 9:49:19 PM EST;two users fighting on correct code;290;4
+2017/11/27 9:53:58 PM EST;Some modifications in first code block mentioned.;292;2
+2017/11/27 9:55:16 PM EST;Program compiled correctly after using first block of code.;294;4
+2017/11/27 9:57:13 PM EST;How-to question on a possible pseudo code;296;2
+2017/11/27 10:13:03 PM EST;code was not correct.;298;1
+2017/11/27 10:17:14 PM EST;Correct code of parsing Json given.;300;4
+2017/11/27 10:19:08 PM EST;code of decoding two or more fields was not correct;286;2
+2017/11/27 10:45:43 PM EST;;276;1
+2017/11/27 10:47:18 PM EST;how to question on existing code;270;2
+2017/11/27 10:48:06 PM EST;correct code given;258;4
+2017/11/27 10:48:57 PM EST;error in dependency code;252;1
+2017/11/27 10:54:36 PM EST;How to question on a code. Not sure if its completely positive;254;3
+2017/11/28 9:32:15 AM EST;not applicable;351;2
+2017/11/28 9:53:13 AM EST;in 18 line should use = instead of :;353;1
+2017/11/28 10:08:19 AM EST;if initial the location, then when change the url, it should show something different.;355;3
+2017/11/29 5:22:43 PM EST;The solution they discuss worked. That is enough to conclude that the code was erroneous. However, the reasoning is absurd. Hence, I wouldn't rate it complete negative.;251;2
+2017/11/29 5:35:04 PM EST;No idea if how the json.decode.map works. But it appears to me that there is something wrong with the code.;253;2
+2017/11/29 5:39:00 PM EST;;255;4
+2017/11/29 5:41:08 PM EST;Not efficient;257;1
+2017/11/29 5:44:49 PM EST;needs to change config file;259;1
+2017/11/29 5:46:20 PM EST;;261;3
+2017/11/29 8:07:40 PM EST;;263;4
+2017/11/29 8:09:59 PM EST;;265;3
+2017/11/29 8:12:00 PM EST;Error in syntax;267;1
+2017/11/29 8:14:38 PM EST;;269;3
+2017/11/29 8:17:29 PM EST;;271;2
+2017/11/29 8:18:21 PM EST;;273;4
+2017/11/29 8:19:19 PM EST;;275;4
+2017/11/29 8:22:34 PM EST;;277;4
+2017/11/29 8:25:03 PM EST;;279;2
+2017/11/29 8:43:56 PM EST;;281;4
+2017/11/29 8:50:10 PM EST;logical argument.;281;3
+2017/11/29 9:24:50 PM EST;;283;4
+2017/11/29 9:29:21 PM EST;;285;4
+2017/11/29 9:33:37 PM EST;Date is not always correct;287;3
+2017/11/29 9:45:40 PM EST;Wrong practise
+;289;1
+2017/11/29 9:49:29 PM EST;;291;4
+2017/11/29 9:57:03 PM EST;;293;4
+2017/11/29 9:59:06 PM EST;;295;2
+2017/11/29 10:00:05 PM EST;;297;4
+2017/11/29 10:00:20 PM EST;;299;4
+2017/11/30 6:02:38 PM EST;The one who provides the code claims that there is a stack overflow;352;1
+2017/11/30 6:05:30 PM EST;The code seems to achieve the goal, but it is not very neat;354;3
+2017/11/30 6:08:37 PM EST;;356;4
+2017/11/30 6:11:11 PM EST;;358;4
+2017/11/30 6:15:09 PM EST;The code seems to have problems since the giver of the code is asking questions about it.;360;3
+2017/11/30 6:16:31 PM EST;It returns an empty list while it shouldn't.;362;4
+2017/11/30 6:18:48 PM EST;;364;4
+2017/11/30 6:20:25 PM EST;It seems running this code will give you a runtime exception;366;1
+2017/11/30 6:22:12 PM EST;;368;4
+2017/11/30 6:41:17 PM EST;Some inputs are ignored by this listener;370;1
+2017/11/30 6:42:36 PM EST;;372;4
+2017/11/30 6:44:32 PM EST;A TypeError will be raised.;374;2
+2017/11/30 6:45:42 PM EST;Someone has tried this code, and it does not work.;376;1
+2017/11/30 6:47:26 PM EST;Someone tried the code and it does not work.;378;1
+2017/11/30 6:48:44 PM EST;Some part of the code does not make sense.;380;2
+2017/11/30 6:49:12 PM EST;;382;4
+2017/11/30 6:50:32 PM EST;Works but the code style is bad.;384;3
+2017/11/30 6:51:22 PM EST;There is a TypeError..;386;1
+2017/11/30 6:52:20 PM EST;;388;4
+2017/11/30 6:54:05 PM EST;Seems like there is a compiling issue.;390;2
+2017/11/30 6:55:17 PM EST;;392;4
+2017/11/30 6:56:02 PM EST;;394;4
+2017/11/30 6:57:22 PM EST;;396;4
+2017/11/30 6:58:16 PM EST;;398;4
+2017/11/30 6:59:24 PM EST;;400;4
+2017/11/30 8:40:12 PM EST;;401;2
+2017/11/30 9:39:55 PM EST;;401;4
+2017/11/30 9:40:24 PM EST;;403;3
+2017/11/30 10:11:01 PM EST;;405;3
+2017/11/30 10:35:58 PM EST;;407;3
+2017/11/30 10:36:58 PM EST;The options suggested are not working;409;1
+2017/11/30 10:39:07 PM EST;;411;3
+2017/11/30 10:40:43 PM EST;User gets the answer, but might not be what he wanted.;413;2
+2017/11/30 10:42:14 PM EST;User's query is not resolved;415;1
+2017/11/30 10:43:53 PM EST;Users problem is not solved;417;1
+2017/11/30 10:44:35 PM EST;;419;4
+2017/11/30 10:45:34 PM EST;;421;3
+2017/11/30 10:46:56 PM EST;Not a concrete solution;423;2
+2017/11/30 10:48:38 PM EST;Confirmation is not given for the last doubt;425;2
+2017/11/30 10:50:41 PM EST;Some options are suggested but no definitive solution;427;2
+2017/11/30 10:55:40 PM EST;Solution worked but is probably not the best way;429;2
+2017/11/30 10:59:12 PM EST;There is a bug in the reader which caused the confusion;431;2
+2017/11/30 11:00:00 PM EST;;433;3
+2017/11/30 11:01:48 PM EST;;435;3
+2017/11/30 11:02:24 PM EST;;437;4
+2017/11/30 11:03:24 PM EST;User is getting an error;439;1
+2017/11/30 11:04:41 PM EST;;441;3
+2017/11/30 11:06:23 PM EST;Not a clear solution;443;2
+2017/11/30 11:07:27 PM EST;Users are getting errors;445;4
+2017/11/30 11:07:53 PM EST;;447;4
+2017/11/30 11:09:08 PM EST;Solution to the problem is given but its confirmation is not received;449;2
+2017/12/01 1:08:07 AM EST;;403;3
+2017/12/01 1:16:02 AM EST;;405;3
+2017/12/01 1:18:36 AM EST;;407;1
+2017/12/01 1:25:37 AM EST;;409;2
+2017/12/01 1:32:26 AM EST;;411;4
+2017/12/01 1:36:10 AM EST;;413;1
+2017/12/01 1:40:21 AM EST;;415;4
+2017/12/01 1:43:21 AM EST;;417;2
+2017/12/01 7:42:26 AM EST;Not Applicable ;1;4
+2017/12/01 7:54:30 AM EST;Not Applicable ;2;3
+2017/12/01 8:00:52 AM EST;Because he is struggling with whether to create a record for both data type separately or to structure his code without a value type;3;2
+2017/12/01 8:03:04 AM EST;The user is having some problem with HTTP package in the code, the user must have failed to download such package.;4;1
+2017/12/01 8:05:32 AM EST;The app failed to run so she needed help to fix that.;5;2
+2017/12/01 8:07:48 AM EST;Not Applicable ;6;3
+2017/12/01 8:10:19 AM EST;Not Applicable ;7;4
+2017/12/01 8:12:55 AM EST;The user couldn't figure out how to solve the problem ;8;2
+2017/12/01 8:16:39 AM EST;He ran into what he might call a problem but he couldn't figure it out ;9;2
+2017/12/01 8:21:35 AM EST;Not Applicable ;10;4
+2017/12/01 8:23:34 AM EST;She needed help on the code to omit the full qualifier;11;2
+2017/12/01 8:25:06 AM EST;Not Applicable ;12;4
+2017/12/01 8:27:49 AM EST;Not Applicable ;13;4
+2017/12/01 8:31:09 AM EST;He needed help on the simplest way to work with the design heavy view that needs to be responsive ;14;2
+2017/12/01 8:44:07 AM EST;He had problem using the python -v command;15;2
+2017/12/01 8:45:46 AM EST;Not Applicable ;16;4
+2017/12/01 8:48:22 AM EST;Not Applicable ;17;4
+2017/12/01 8:50:55 AM EST;Not Applicable ;18;4
+2017/12/01 8:51:41 AM EST;Not Applicable ;19;4
+2017/12/01 8:53:04 AM EST;He needs suggestions regarding the solution to the problem ;20;2
+2017/12/01 8:53:55 AM EST;Not Applicable ;21;4
+2017/12/01 8:55:28 AM EST;The message is not getting formatted ;22;2
+2017/12/01 8:56:35 AM EST;Not Applicable ;23;4
+2017/12/01 8:57:53 AM EST;Needs help with the code;24;1
+2017/12/01 8:59:26 AM EST;Not Applicable ;25;4
+2017/12/01 1:48:38 PM EST;NA;402;4
+2017/12/01 1:51:44 PM EST;;404;4
+2017/12/01 2:46:52 PM EST;;401;1
+2017/12/01 3:03:43 PM EST;;403;4
+2017/12/01 3:05:38 PM EST;;405;4
+2017/12/01 3:07:34 PM EST;I like this, but I'm wondering if anyone else can see any pitfalls
+U051SS2EU : delay is under-utilized imho;407;1
+2017/12/01 3:11:29 PM EST;Neither of those is quite right. `cond-&gt;` doesn't pass `val` to `function`, and `some-&gt;` just bails if the value becomes nil.;409;1
+2017/12/01 3:34:43 PM EST;my problem is i keep getting this error and i'm not sure what it means ;301;1
+2017/12/01 3:37:23 PM EST; then open that file, and set the `"source-directories": [ "elm" ]` File was in wrong folder;301;4
+2017/12/01 3:38:49 PM EST; now you'd "simply" need to write proper decoders for snapshot and trackPosition, and you're all set;349;2
+2017/12/01 3:39:47 PM EST; you can't have `WithUserFields`  and `WithUserFields ` twice in the same module i think - ups i thougth is a `type` ;303;1
+2017/12/01 3:41:44 PM EST; since `extractField` only deals with a single field, shouldn't it only return a single error? ;305;1
+2017/12/01 3:43:04 PM EST; you'd do it in two steps, something like this;307;1
+2017/12/01 3:44:21 PM EST; Yeah then the `map` version will be quicker. Reduce is often slower for smallish input;309;3
+2017/12/01 3:45:51 PM EST;|beginners> question?  There's something I don't follow.  In type definitions, what's the difference between `(String -&gt; Int) -&gt; Int` and `String -&gt; Int -&gt; Int`.  What is `(String -&gt; Int)` denoting here?  I understand that `String -&gt; Int -&gt; Int` is a function that takes a `String` and `Int` parameter and returns an `Int` expressed in a curried format.    But what is `(String -&gt; Int)` expressing?;311;3
+2017/12/01 3:48:13 PM EST;m seeing this error: duration : Span -&gt; Int duration span = span.duration ;313;1
+2017/12/01 3:48:55 PM EST;Expecting an Int but instead got: undefined;315;1
+2017/12/01 3:49:42 PM EST;The result that I always get is an Error regarding not being able to parse invalid JSON;317;1
+2017/12/01 3:50:40 PM EST; Yes, don't use map to execute side-effecting functions like println since map basically returns a lazy seq ;319;1
+2017/12/01 3:51:33 PM EST; I am having a bit of a problem introducing Elm into an existing project which has a webpack set-up;321;1
+2017/12/01 3:52:24 PM EST;There is no generic record-updater syntax;323;1
+2017/12/01 3:53:23 PM EST; Then I get : TypeError: list indices must be integers or slices, not str ;325;1
+2017/12/01 3:54:09 PM EST; There's nothing inherently wrong with that, in my opinion. For me, it's a quite common pattern that I pull out the transducers once I start noticing boilerplate and repeating patterns in the code;327;4
+2017/12/01 4:00:51 PM EST;oh! that's really simple) thanks a lot, forget that it's possible to replace in the whole text not just in line ;329;4
+2017/12/01 4:02:22 PM EST;the difference is only about the destructuring of the parameters? fn supports it, while fn* doesn';331;1
+2017/12/01 4:03:08 PM EST;Just as an alternative. I don't think it is really better;333;4
+2017/12/01 4:03:36 PM EST;;351;3
+2017/12/01 4:04:30 PM EST; ModuleNotFoundError: No module named 'broadway';335;1
+2017/12/01 4:06:00 PM EST;Actually this would work too;337;4
+2017/12/01 4:08:05 PM EST;now fails with the following error: ```Error: Your .elm/packages/ directory may be corrupted. I was led to believe thatgdotdesign/elm-ui existed, but I could not find anything when I went to look up the published versions of this package;339;1
+2017/12/01 4:08:34 PM EST;incorrect snippet discussed;353;1
+2017/12/01 4:09:11 PM EST;replacing Just "" with Nothing fails. Anyone knows why;341;3
+2017/12/01 4:09:56 PM EST;is there a way to "precompile" `elm-stuff` without my modules, first, so that when I do want to compile my modules it goes faster;343;3
+2017/12/01 4:11:12 PM EST;does not work;345;1
+2017/12/01 4:12:20 PM EST;;355;1
+2017/12/01 4:32:05 PM EST;;357;4
+2017/12/01 4:33:08 PM EST;;359;1
+2017/12/01 4:33:47 PM EST;;361;4
+2017/12/01 4:35:00 PM EST;;363;3
+2017/12/01 4:35:28 PM EST;;365;1
+2017/12/01 4:37:03 PM EST;;367;3
+2017/12/01 4:37:49 PM EST;;369;1
+2017/12/01 4:59:14 PM EST;;371;1
+2017/12/01 5:00:11 PM EST;;373;2
+2017/12/01 5:00:50 PM EST;;375;3
+2017/12/01 5:01:29 PM EST;;377;1
+2017/12/01 5:01:58 PM EST;;399;1
+2017/12/01 6:10:47 PM EST;;397;3
+2017/12/01 6:11:28 PM EST;;395;4
+2017/12/01 6:12:04 PM EST;;393;3
+2017/12/01 6:12:48 PM EST;;391;3
+2017/12/01 6:14:17 PM EST;;389;2
+2017/12/01 6:16:30 PM EST;;387;1
+2017/12/01 6:16:45 PM EST;;385;2
+2017/12/01 6:17:00 PM EST;;383;2
+2017/12/01 6:17:14 PM EST;;381;2
+2017/12/01 6:18:00 PM EST;;379;3
