@@ -58,7 +58,7 @@ yvalues = []
 #           "bad_100Weight100bi_20uni", "bad_100Weight25bi_0uni", "bad_100Weight25bi_20uni",
 #           "bad_100Weight50bi_0uni", "bad_100Weight50bi_20uni", "bad_100Weight75bi_0uni", "bad_100Weight75bi_20uni",
 #           "bad_100Weight100bi_0uni", "bad_100Weight100bi_20uni"]
-xvalues = [1,2,3,4,5,6,7,8,9,10,11,12,13]
+xvalues = [1,2,3,4,5,6,7,8,9,10,11,12,13,14]
 file = open('configurations.csv', 'r')
 reader = csv.reader(file)
 print "plot1"

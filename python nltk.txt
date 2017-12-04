@@ -1,0 +1,9 @@
+Python NLTK:
+True positive:2.0 False positive:2.0
+True negative:8.0 False negative:18.0
+Recall:0.8
+Precision:0.3076923076923077
+True positive confidence:1.75
+True negative confidence:2.0625
+False positive confidence:1.75
+False negative confidence:1.6388888888888888

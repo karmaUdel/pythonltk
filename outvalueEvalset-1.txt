@@ -1,0 +1,305 @@
+Configuration : bad_5Weight100bi_0uni_test.txt
+size:200
+253
+261
+296
+271
+275
+355
+403
+405
+407
+True positive:10.0 False positive:6.0
+True negative:4.0 False negative:10.0
+Recall:0.4
+Precision:0.2857142857142857
+True positive confidence:1.95
+True negative confidence:1.625
+False positive confidence:2.25
+False negative confidence:1.35
+Configuration : bad_5Weight100bi_20uni_test.txt
+size:200
+253
+263
+261
+267
+296
+271
+275
+279
+281
+285
+287
+295
+355
+401
+403
+405
+407
+411
+True positive:1.0 False positive:1.0
+True negative:9.0 False negative:19.0
+Recall:0.9
+Precision:0.32142857142857145
+True positive confidence:0.5
+True negative confidence:2.0555555555555554
+False positive confidence:0.5
+False negative confidence:1.7105263157894737
+Configuration : bad_10Weight100bi_0uni_test.txt
+size:200
+253
+261
+296
+271
+275
+355
+403
+405
+407
+True positive:10.0 False positive:6.0
+True negative:4.0 False negative:10.0
+Recall:0.4
+Precision:0.2857142857142857
+True positive confidence:1.95
+True negative confidence:1.625
+False positive confidence:2.25
+False negative confidence:1.35
+Configuration : bad_10Weight100bi_20uni_test.txt
+size:200
+253
+263
+261
+267
+296
+271
+275
+279
+281
+285
+287
+295
+355
+401
+403
+405
+407
+411
+True positive:1.0 False positive:1.0
+True negative:9.0 False negative:19.0
+Recall:0.9
+Precision:0.32142857142857145
+True positive confidence:0.5
+True negative confidence:2.0555555555555554
+False positive confidence:0.5
+False negative confidence:1.7105263157894737
+Configuration : bad_100Weight100bi_20uni_test.txt
+size:200
+253
+263
+261
+267
+296
+271
+275
+279
+281
+285
+287
+295
+355
+401
+403
+405
+407
+411
+True positive:1.0 False positive:1.0
+True negative:9.0 False negative:19.0
+Recall:0.9
+Precision:0.32142857142857145
+True positive confidence:0.5
+True negative confidence:2.0555555555555554
+False positive confidence:0.5
+False negative confidence:1.7105263157894737
+Configuration : bad_100Weight25bi_0uni_test.txt
+size:200
+271
+True positive:18.0 False positive:8.0
+True negative:2.0 False negative:2.0
+Recall:0.2
+Precision:0.5
+True positive confidence:1.6944444444444444
+True negative confidence:1.25
+False positive confidence:2.4375
+False negative confidence:1.25
+Configuration : bad_100Weight25bi_20uni_test.txt
+size:200
+253
+263
+261
+267
+296
+271
+275
+279
+281
+285
+287
+295
+355
+401
+403
+405
+407
+411
+True positive:1.0 False positive:1.0
+True negative:9.0 False negative:19.0
+Recall:0.9
+Precision:0.32142857142857145
+True positive confidence:0.5
+True negative confidence:2.0555555555555554
+False positive confidence:0.5
+False negative confidence:1.7105263157894737
+Configuration : bad_100Weight50bi_0uni_test.txt
+size:200
+271
+True positive:18.0 False positive:8.0
+True negative:2.0 False negative:2.0
+Recall:0.2
+Precision:0.5
+True positive confidence:1.6944444444444444
+True negative confidence:1.25
+False positive confidence:2.4375
+False negative confidence:1.25
+Configuration : bad_100Weight50bi_20uni_test.txt
+size:200
+253
+263
+261
+267
+296
+271
+275
+279
+281
+285
+287
+295
+355
+401
+403
+405
+407
+411
+True positive:1.0 False positive:1.0
+True negative:9.0 False negative:19.0
+Recall:0.9
+Precision:0.32142857142857145
+True positive confidence:0.5
+True negative confidence:2.0555555555555554
+False positive confidence:0.5
+False negative confidence:1.7105263157894737
+Configuration : bad_100Weight75bi_0uni_test.txt
+size:200
+271
+True positive:18.0 False positive:8.0
+True negative:2.0 False negative:2.0
+Recall:0.2
+Precision:0.5
+True positive confidence:1.6944444444444444
+True negative confidence:1.25
+False positive confidence:2.4375
+False negative confidence:1.25
+Configuration : bad_100Weight75bi_20uni_test.txt
+size:200
+253
+263
+261
+267
+296
+271
+275
+279
+281
+285
+287
+295
+355
+401
+403
+405
+407
+411
+True positive:1.0 False positive:1.0
+True negative:9.0 False negative:19.0
+Recall:0.9
+Precision:0.32142857142857145
+True positive confidence:0.5
+True negative confidence:2.0555555555555554
+False positive confidence:0.5
+False negative confidence:1.7105263157894737
+Configuration : bad_100Weight100bi_0uni_test.txt
+size:200
+271
+True positive:18.0 False positive:8.0
+True negative:2.0 False negative:2.0
+Recall:0.2
+Precision:0.5
+True positive confidence:1.6944444444444444
+True negative confidence:1.25
+False positive confidence:2.4375
+False negative confidence:1.25
+Configuration : bad_100Weight100bi_20uni_test.txt
+size:200
+253
+263
+261
+267
+296
+271
+275
+279
+281
+285
+287
+295
+355
+401
+403
+405
+407
+411
+True positive:1.0 False positive:1.0
+True negative:9.0 False negative:19.0
+Recall:0.9
+Precision:0.32142857142857145
+True positive confidence:0.5
+True negative confidence:2.0555555555555554
+False positive confidence:0.5
+False negative confidence:1.7105263157894737
+Configuration : badlist_nltk.txt
+size:200
+253
+263
+261
+267
+296
+271
+275
+279
+285
+287
+295
+355
+401
+403
+405
+407
+411
+True positive:2.0 False positive:2.0
+True negative:8.0 False negative:18.0
+Recall:0.8
+Precision:0.3076923076923077
+True positive confidence:1.75
+True negative confidence:2.0625
+False positive confidence:1.75
+False negative confidence:1.6388888888888888
