@@ -11,7 +11,7 @@ def analyze(sentence):
     # TODO: use NLTK sentiment analyzer --> Done
     response = unirest.post("https://japerk-text-processing.p.mashape.com/sentiment/",
                             headers={
-                                "X-Mashape-Key": "1Q32TBCmh4mshTuv7fwzyTdeafdap1RrrlJjsnLv5GQXNV6bnF",
+                                "X-Mashape-Key": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                                 "Content-Type": "application/x-www-form-urlencoded",
                                 "Accept": "application/json"
                             },

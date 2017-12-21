@@ -53,7 +53,6 @@ def addinfo(pdf):
     d['CreationDate'] = datetime.datetime(2017, 12, 02)
     d['ModDate'] = datetime.datetime.today()
 
-
 def barcharts(xvalues,values):
     n_groups = len(xvalues)
 
@@ -68,7 +67,7 @@ def barcharts(xvalues,values):
     index = np.arange(n_groups)
     bar_width = 0.45
 
-    opacity = 0.4
+    opacity = 0.8
     error_config = {'ecolor': '0.3'}
 
     rects1 = plt.bar(index, means_men, bar_width,
